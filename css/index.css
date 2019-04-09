@@ -1,0 +1,246 @@
+/*橙识*/
+.recognition,.circular {
+	/*padding-bottom: 54px;*/
+	background: white;
+}
+
+.administration {
+	width: 100%;
+	background: #ffffff;
+}
+
+.content {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.my_administration,
+.circle_cont {
+	width: 93%;
+	margin: 0 auto;
+}
+
+.my_administration {
+	display: flex;
+	padding: 1rem 0;
+	justify-content: space-between;
+}
+
+.nub{
+	font-size: 0.80rem;
+	color: #000000;
+}
+
+h3 {
+	display: block;
+	font-size: 0.85rem;
+	font-weight: bold;
+	color: #000000;
+}
+
+#circle{
+	display: none;
+}
+
+.circle {
+	border-bottom: 1px solid #F2F2F2;
+}
+
+.circle_cont {
+	padding: 1rem 0;
+	display: flex;
+}
+
+.circle_img {
+	width: 150px;
+	height: 100px;
+}
+
+.circle_img img {
+	width: 100%;
+	height: 100%;
+}
+
+.circle_text {
+	padding-left: 0.75rem;
+}
+
+h3 {
+	padding: 10px 0;
+}
+/*橙圈*/
+.recommend {
+	width: 100%;
+	padding-bottom: 1rem;
+}
+
+.circle_recommend {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 1rem;
+}
+
+.recommend_title {
+	font-size: 0.8rem;
+	/*font-weight: 600;*/
+	display: flex;
+	align-items: center;
+}
+
+.block {
+	display: block;
+	width: 4px;
+	height: 16px;
+	background: #F19732;
+}
+
+.block_title {
+	display: block;
+	padding-left: 0.75rem;
+}
+
+.recommend_refush {
+	color: #F19732;
+	padding-right: 0.75rem;
+}
+
+.circle_content {
+	width: 92%;
+	display: flex;
+	 flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 auto;
+	
+}
+.pad{
+	width: 47.5%;
+	padding-top: 1rem;
+}
+.knowledge {
+	width: 100%;
+	border-radius: 0 0 5px 5px;
+	box-shadow: 0px 0 5px #E8E8E8;
+}
+
+.knowledge_img {
+	width: 100%;
+	height: 100px;
+}
+
+.knowledge_img img {
+	width: 100%;
+	height: 100%;
+}
+
+.knowledge_intro {
+	padding: 0 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+.knowledge_bot span {
+	display: block;
+}
+
+.knowledge_bot {
+	display: flex;
+	justify-content: space-between;
+}
+.intro{
+	font-size: 11px;
+	color: #999999;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+}
+.recommend_more{
+	font-size: 13px;
+	color: #666666;
+	padding-right: 0.75rem;
+}
+.essence_intro{
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem 0;
+	width: 93%;
+	margin: 0 auto;
+	border-bottom: 1px solid #F2F2F2;
+}
+
+.essence_img {
+	width: 75px;
+	height: 75px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.essence_img img {
+	width: 100%;
+	height: 100%;
+}
+
+.essence_text {
+	width: 70%;
+	padding-left: 0.5rem;
+}
+.essence_title{
+	font-size: 14px;
+	font-weight: 600;
+	color: #000000;
+}
+/*我的*/
+.sign{
+	width: 100%;
+	background: #ffffff;
+}
+.sign_img{
+	padding-bottom: 1rem;
+}
+.sigin_photo{
+	width: 3rem;
+	height: 3rem;
+	margin: 0 auto;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.sigin_photo img{
+	width: 100%;
+	height: 100%;
+}
+.pleas,.autograph{
+	width: 100%;
+	text-align: center;
+}
+.pleas{
+	padding-top: 5px;;
+	font-size: 18px;
+	color: #000000;
+}
+.autograph{
+	font-size: 14px;
+	color: #B4B4B4;
+	padding: 5px 0;
+}
+.apply{
+	width: 92%;
+	height: 68px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 550;
+	color: #ffffff;
+	line-height: 60px;
+	background: url("../images/login_btn_bg.png");
+	background-position: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.mylist{
+	background: #ffffff;
+}
+.weui-cell__ft{
+	font-size: 12px;
+}
+.weui-cell__bd p{
+	color: #000000;
+}
